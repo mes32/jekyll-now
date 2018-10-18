@@ -58,6 +58,11 @@ section {
   margin-bottom: 2em;
 }
 
+p {
+  margin: 0em;
+  margin-top: 0.5em;
+}
+
 ul {
   margin: 0px;
   list-style-type: square;
@@ -73,6 +78,11 @@ span.date_range {
   font-weight: bold;
   line-height: 0;
   overflow: auto;
+}
+
+#contact_info p {
+  margin: 0em;
+  line-height: 1.2em;
 }
 
 #contact_info a:link {
@@ -97,11 +107,6 @@ div#contact_info_left {
 div#contact_info_right {
   float: right;
   text-align: right;
-}
-
-#technical_skills p {
-  margin: 0em;
-  margin-top: 0.5em;
 }
 
 #projects a:link {

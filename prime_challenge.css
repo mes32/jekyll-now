@@ -1,9 +1,9 @@
 body {
-  color: darkgray;
-  /*font-family: 'Nanum Gothic', 'Verdana', sans-serif;*/
+  color: #404040;
+  font-family: 'Nanum Gothic', 'Verdana', sans-serif;
 }
 
 h1 {
-  color: darkblue;
-  /*font-family: 'Ubuntu Mono', monospace;*/
+  color: #244061;
+  font-family: 'Ubuntu Mono', monospace;
 }

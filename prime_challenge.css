@@ -3,7 +3,7 @@ body {
   font-family: 'Nanum Gothic', 'Verdana', sans-serif;
 }
 
-h1 {
+h1, h2 {
   color: #244061;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Ubuntu Mono', 'Courier New', monospace;
 }

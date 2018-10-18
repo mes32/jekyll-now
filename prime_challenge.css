@@ -8,22 +8,52 @@ body {
   font-size: 10pt;
 }
 
-h1, h2 {
-  color: #244061;
-  font-family: 'Ubuntu Mono', 'Courier New', monospace;
-}
-
-.page {
+article.page {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 40px;
-  padding: 10px;
-  padding-top: 30px;
-  width: 75%;
+  padding: 60px;
+  width: 60%;
   height: 100%;
   background-color: white;
   border: 1px solid black;
   box-shadow: 0 10px 20px 0 black;
+}
+
+div.contact_info {
+  font-family: 'Ubuntu Mono', 'Courier New', monospace;
+  font-weight: bold;
+  line-height: 0;
+  overflow: auto;
+}
+
+div.contact_info a:link {
+    color: black;
+}
+
+div.contact_info a:visited {
+    color: black;
+}
+
+div.contact_info a:hover {
+    color: blue;
+}
+
+div.contact_info a:active {
+    color: purple;
+}
+
+div.contact_info_left {
+    float: left;
+}
+div.contact_info_right {
+  float: right;
+  text-align: right;
+}
+
+h1, h2 {
+  color: #244061;
+  font-family: 'Ubuntu Mono', 'Courier New', monospace;
 }
 
 h1 {

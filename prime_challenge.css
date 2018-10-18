@@ -45,10 +45,13 @@ h3 {
 }
 
 h4 {
+  color: gray;
   font-family: 'Ubuntu Mono', 'Courier New', monospace;
   font-weight: bold;
   font-size: 1em;
-  line-height: 0.5em;
+  line-height: 1em;
+  margin: 0px;
+  margin-bottom: 0.5em;
 }
 
 section {

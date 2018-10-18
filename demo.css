@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: darkblue;
+  /* Text color */
+  color: white;
+  padding: 5px;
+}
+
+section {
+  background-color: mintcream;
+  width: 50%;
+  float: left;
+  height: 300px;
+}
+
+.small-img {
+  width: 200px;
+}
+
+img {
+  width: 200px;
+}

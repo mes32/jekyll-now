@@ -11,96 +11,106 @@
   <body>
     <article class="page">
       <header>
-        <div class="contact_info">
+        <section id="contact_info">
           <h1>Michael Stockman</h1>
-          <div class="contact_info_left">
+          <div id="contact_info_left">
             <p>Minneapolis, MN</p>
             <p>555-000-0000</p>
             <p><a href="mailto:stockman.mike@gmail.com">stockman.mike@gmail.com</a></p>
           </div>
-          <div class="contact_info_right">
+          <div id="contact_info_right">
             <p><a href="https://github.com/mes32">github.com/mes32</a></p>
             <p><a href="https://linkedin.com/in/mes32">linkedin.com/in/mes32</a></p>
           </div>
-        </div>
+        </section> <!-- /section id="contact_info" -->
       </header>
       <main>
-        <h2>Summary Statement</h2>
-        <p>
-          I am a quick study with a diverse background of knowledge, and I love working on interesting problems. I have several years experience working as a computer programmer. I also worked for several years previously in scientific research. In both these careers, I honed my skills writing software, analyzing data, making inferences, and communicating findings.
-        </p>
-        <h2>Technical Skills</h2>
-        <p>
-          <b>Languages:</b> Java, Python, R, Javascript, C, MatLab, PHP, Bash, Swift/iOS
-        </p>
-        <p>
-          <b>Programming Related:</b> Git/Github, Design Patterns, SQLite3, Make, Gradle, Web Development (HTML, CSS)
-        </p>
-        <p>
-          <b>Data Science:</b> Image Processing, Statistical Analysis, Machine Learning, Scientific Research, HPC Cluster
-        </p>
-        <p>
-          <b>Other:</b> Graphic Design, Gimp, Inkscape
-        </p>
-        <h2>Projects</h2>
-        <h3>Pipeline Generator (<a href="https://github.com/Gruss-MRRC/pipe-gen">github.com/Gruss-MRRC/pipe-gen</a>) 2015 &ndash; present</h3>
-        <ul>
-          <li>Java application to help researchers at Gruss MRRC compose and run image processing pipelines</li>
-          <li>Features a visual workspace where users add and connect data-processing modules to describe a workflow</li>
-          <li>Users then load a set of files to run through the steps of the workflow and the program will auto-generate a Makefile to perform the analysis using the input filenames</li>
-        </ul>
-        <h3>MRI Data Storage System 2015 &ndash; 2017</h3>
-        <ul>
-          <li>Software system for storing MRI datasets at Gruss MRRC ensuring a standardized directory structure</li>
-          <li>Separates roles and concerns of different users into different Java GUI clients
-  Logs all storage transactions in an SQLite database using JDBC</li>
-        </ul>
-        <h3>Brew-Engine (<a href="http://brew-engine.com/engines/the-brew-engine.php">brew-engine.com/engines/the-brew-engine.php</a>) 2011 &ndash; present</h3>
-        <ul>
-          <li>Web application using Javascript, PHP, and MySQL database backend</li>
-          <li>Allows input of ingredients for a batch of homebrewed beer</li>
-          <li>Based on these ingredients predicts properties of the beer such as color, alcohol by volume, and IBUs</li>
-        </ul>
-        <h2>Work Experience</h2>
-        <h3>Gruss Magnetic Resonance Research Center  November 2013 &ndash; November 2017</h3>
-        <h4>Computer Programmer</h4>
-        <ul>
-          <li>Created several applications using Java and SQLite</li>
-          <li>Designed and wrote numerous image processing Bash scripts to automate MRI data analysis</li>
-          <li>Supported scientific research with computer programming, image processing, and statistical analysis</li>
-        </ul>
-        <h3>Center for Neural Basis of Cognition, Carnegie Mellon University  August 2011 &ndash; July 2012</h3>
-        <h4>Graduate Student</h4>
-        <ul>
-          <li>Took courses in neuroscience, statistics, and mathematics</li
-          <li>Studied statistical techniques for brain surface morphometry</li>
-          <li>Researched childhood brain development using longitudinal analysis of structural MRI</li>
-          <li>Continued research projects from the Child Psychiatry Branch</li>
-        </ul>
-        <h3>Child Psychiatry Branch, NIMH/NIH October 2007 &ndash; July 2012</h3>
-        <h4>Research Fellow</h4>
-        <ul>
-          <li>Performed MRI image processing and statistical analysis</li>
-          <li>Researched human brain morphometry and function during childhood development</li>
-          <li>Contributed to several peer-reviewed journal articles on neuroscience and neuroimaging</li>
-          <li>Mentored interns: teaching programming, imaging techniques, and facilitating their development as scientists</li>
-        </ul>
+        <section id="summary_statement">
+          <h2>Summary Statement</h2>
+          <p>
+            I am a quick study with a diverse background of knowledge, and I love working on interesting problems. I have several years experience working as a computer programmer. I also worked for several years previously in scientific research. In both these careers, I honed my skills writing software, analyzing data, making inferences, and communicating findings.
+          </p>
+        </section> <!-- /section id="summary_statement" -->
+        <section id="technical_skills">
+          <h2>Technical Skills</h2>
+          <p>
+            <b>Languages:</b> Java, Python, R, Javascript, C, MatLab, PHP, Bash, Swift/iOS
+          </p>
+          <p>
+            <b>Programming Related:</b> Git/Github, Design Patterns, SQLite3, Make, Gradle, Web Development (HTML, CSS)
+          </p>
+          <p>
+            <b>Data Science:</b> Image Processing, Statistical Analysis, Machine Learning, Scientific Research, HPC Cluster
+          </p>
+          <p>
+            <b>Other:</b> Graphic Design, Gimp, Inkscape
+          </p>
+        </section> <!-- /section id="technical_skills" -->
+        <section id="projects">
+          <h2>Projects</h2>
+          <h3>Pipeline Generator (<a href="https://github.com/Gruss-MRRC/pipe-gen">github.com/Gruss-MRRC/pipe-gen</a>) 2015 &ndash; present</h3>
+          <ul>
+            <li>Java application to help researchers at Gruss MRRC compose and run image processing pipelines</li>
+            <li>Features a visual workspace where users add and connect data-processing modules to describe a workflow</li>
+            <li>Users then load a set of files to run through the steps of the workflow and the program will auto-generate a Makefile to perform the analysis using the input filenames</li>
+          </ul>
+          <h3>MRI Data Storage System 2015 &ndash; 2017</h3>
+          <ul>
+            <li>Software system for storing MRI datasets at Gruss MRRC ensuring a standardized directory structure</li>
+            <li>Separates roles and concerns of different users into different Java GUI clients
+    Logs all storage transactions in an SQLite database using JDBC</li>
+          </ul>
+          <h3>Brew-Engine (<a href="http://brew-engine.com/engines/the-brew-engine.php">brew-engine.com/engines/the-brew-engine.php</a>) 2011 &ndash; present</h3>
+          <ul>
+            <li>Web application using Javascript, PHP, and MySQL database backend</li>
+            <li>Allows input of ingredients for a batch of homebrewed beer</li>
+            <li>Based on these ingredients predicts properties of the beer such as color, alcohol by volume, and IBUs</li>
+          </ul>
+        </section> <!-- /section id="projects" -->
+        <section id="work_experience">
+          <h2>Work Experience</h2>
+          <h3>Gruss Magnetic Resonance Research Center  November 2013 &ndash; November 2017</h3>
+          <h4>Computer Programmer</h4>
+          <ul>
+            <li>Created several applications using Java and SQLite</li>
+            <li>Designed and wrote numerous image processing Bash scripts to automate MRI data analysis</li>
+            <li>Supported scientific research with computer programming, image processing, and statistical analysis</li>
+          </ul>
+          <h3>Center for Neural Basis of Cognition, Carnegie Mellon University  August 2011 &ndash; July 2012</h3>
+          <h4>Graduate Student</h4>
+          <ul>
+            <li>Took courses in neuroscience, statistics, and mathematics</li
+            <li>Studied statistical techniques for brain surface morphometry</li>
+            <li>Researched childhood brain development using longitudinal analysis of structural MRI</li>
+            <li>Continued research projects from the Child Psychiatry Branch</li>
+          </ul>
+          <h3>Child Psychiatry Branch, NIMH/NIH October 2007 &ndash; July 2012</h3>
+          <h4>Research Fellow</h4>
+          <ul>
+            <li>Performed MRI image processing and statistical analysis</li>
+            <li>Researched human brain morphometry and function during childhood development</li>
+            <li>Contributed to several peer-reviewed journal articles on neuroscience and neuroimaging</li>
+            <li>Mentored interns: teaching programming, imaging techniques, and facilitating their development as scientists</li>
+          </ul>
+        </section> <!-- /section id="work_experience" -->
+        <section id="education">
         <h2>Education</h2>
-        <p>
-          <b>Carnegie Mellon</b> &mdash; Studied neuroscience and statistics for one year; conducted scientific research 2012
-        </p>
-        <p>
-          <b>University of Maryland</b> &mdash; Took courses in machine learning, linear algebra, and data structures  2011
-        </p>
-        <p>
-          <b>Case Western Reserve University</b> 2007<br />
-          Major: BS Biomedical Engineering &mdash; Computing and Imaging<br />
-          Minor: Studio Art
-        </p>
+          <p>
+            <b>Carnegie Mellon</b> &mdash; Studied neuroscience and statistics for one year; conducted scientific research 2012
+          </p>
+          <p>
+            <b>University of Maryland</b> &mdash; Took courses in machine learning, linear algebra, and data structures  2011
+          </p>
+          <p>
+            <b>Case Western Reserve University</b> 2007<br />
+            Major: BS Biomedical Engineering &mdash; Computing and Imaging<br />
+            Minor: Studio Art
+          </p>
+        </section> <!-- /section id="education" -->
       </main>
       <footer>
         Copywrite &copy; 2018 Michael Stockman 
       </footer>
-    </article> <!-- article class="page" -->
+    </article> <!-- /article class="page" -->
   </body>
 </html>

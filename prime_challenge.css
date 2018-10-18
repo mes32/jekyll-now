@@ -1,4 +1,7 @@
 body {
+  margin: 0px;
+  background-color: #002f2b;
+  background-image: url("./images/Prime-ish_tile.png");
   color: #404040;
   font-family: 'Nanum Gothic', 'Verdana', sans-serif;
 }
@@ -6,4 +9,15 @@ body {
 h1, h2 {
   color: #244061;
   font-family: 'Ubuntu Mono', 'Courier New', monospace;
+}
+
+.page {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 75%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0 10px 20px 0 black;
 }

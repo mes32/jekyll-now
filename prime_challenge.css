@@ -68,6 +68,12 @@ ul {
   list-style-type: square;
 }
 
+footer {
+  color: #d8d8d8;
+  margin-top: 3em;
+  text-align: center;
+}
+
 span.date_range {
   float: right;
   text-align: right;
